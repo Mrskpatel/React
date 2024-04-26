@@ -1,0 +1,151 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo{
+    flex-basis: 10%;
+    height: 60px;
+}
+
+.logo img{
+    margin: 20px 30px;
+    cursor: pointer;
+}
+
+nav{
+    flex-basis: 50%;
+    height: 60px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+#number{
+    color: #FFCD28;
+    font-weight: 800;
+}
+
+.background{
+    height: 635px;
+    background-image: linear-gradient(rgba(25,67,65,0.5),rgba(25,67,65,0.4)),url(banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.background-info{
+    position: absolute;
+    top: 23%;
+    left: 15%;
+}
+
+.background-info h1{
+    font-size: 88px;
+    color: #fff;
+    line-height: 88px;
+}
+
+.info{
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.background-info p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: -20px;
+    line-height: 40px;
+}
+
+.background-info button{
+    width: 207px;
+    height: 57px;
+    background-color:#FFCD28;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #194341;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.background-info button:hover{
+    background-color: #194341;
+    color: #fff;
+    transition: 1s;
+}
+
+.background-info a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.background-info span{  
+    color: #FFCD28;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.studies{
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sub-studies{
+    width: 260px;
+    height: 213px;
+    border-radius: 13px;
+    background-color: #F7F8FA;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.sub-studies:hover{
+    background-color: #194341;
+    color: #fff;
+    transition: 1s;
+}
+
+.sub-studies i{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.sub-studies p{
+    padding-top: 20px;
+}
+
+#see{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #194341;
+}
