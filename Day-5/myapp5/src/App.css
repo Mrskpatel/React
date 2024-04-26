@@ -1,0 +1,14 @@
+.main{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.map{
+  height: 900px;
+  flex-basis: 30%;
+}
+.map img{
+  height: 40%;
+  width: 100%;
+}
