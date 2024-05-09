@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+ form{
+
+  width: 300px;
+  height: 350px;
+  /* border: 1px solid black; */
+ }
+ input {
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+ }
+ select{
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+ }
+ button{
+  width: 40%;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+ }
+
+ thead{
+  text-align: center;
+ }
+
+ tbody{
+  text-align: center;
+ }
