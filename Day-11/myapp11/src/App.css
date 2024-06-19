@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+
+input{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+button{
+    width: 415px;
+    height: 40px;
+    margin-top: 20px;
+}
