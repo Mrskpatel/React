@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "2966"
+    },
+    {
+      "id": "a1a8",
+      "product": "hello",
+      "price": "hi",
+      "category": ""
+    },
+    {
+      "id": "0dc9",
+      "product": "jhfo",
+      "price": "ouhg",
+      "category": "ouhoi"
+    },
+    {
+      "id": "839d",
+      "product": "oig",
+      "price": "oihg",
+      "category": "oihg"
+    }
+  ]
+}
