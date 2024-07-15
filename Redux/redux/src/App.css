@@ -1,0 +1,15 @@
+
+.btns {
+  display: flex;
+  margin-left: 600px;
+}
+
+.btn1{
+  background-color: green;
+
+}
+.btn{
+  color: #000;
+  background-color: red;
+  margin-left: 5px;
+}
